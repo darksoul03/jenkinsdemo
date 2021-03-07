@@ -1,1 +1,1 @@
-hf_webserver_dev  ansible_host=$dev_ip ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/sshkey.pem 
+hf_webserver_dev  ansible_host=18.234.156.52 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/sshkey.pem 
