@@ -1,0 +1,11 @@
+---
+- name: webdeploy_dev
+  hosts: webserver_dev
+  become: yes
+
+  tasks:
+  - name: Deploying Website on the hf-server-dev
+    copy:
+      src: website/
+      dest: /var/www/html/jenkins/
+
